@@ -23,11 +23,11 @@ public class CreateAccountSteps {
 
     @Given("I am on the homepage")
     public void i_am_on_the_homepage() {
-    	WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://magento.softwaretestingboard.com/");
-        homePage = new HomePage(driver);
+//    	WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("https://magento.softwaretestingboard.com/");
+//        homePage = new HomePage(driver);
     }
 
     @When("I click on the create account button")
